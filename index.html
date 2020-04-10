@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/> 
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>HNDRD</title>
+  <link rel='shortcut icon' href='images/logo' type='image/x-icon'>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/YouTubePopUp.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <!-- === header section start === -->
+  <header class="header">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/logo.png" alt="logo" class="img-fluid">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Shows</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Podcasts</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Über uns</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="banner">
+      <img src="images/header_banner.png" alt="banner" class="img-fluid" loading="lazy">
+    </div>
+  </header>
+  <!-- ===//end of header section === -->
+ 
+
+  <!-- === video section start === -->
+  <section class="video">
+    <div class="container">
+      <div class="video-main">
+        <div class="icon">
+          <!-- Change the link to change the video -->
+          <a class="bla-1" href="https://www.youtube.com/watch?v=3qyhgV0Zew0"><i class="fas fa-play"></i></a>
+        </div>
+        <div class="text">
+          <h5>BRONSKI BEAT - SMALLTWON BOY</h5>
+          <h3>HNDRD</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ===//end of video section === -->
+ 
+
+  <!-- === music-gallery section start === -->
+  <section class="music-gallery">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-6">
+          <div class="music-item">
+            <img src="images/music_gallery/img_1.png" alt="music_gallery" class="w-100" loading="lazy">
+            <span>EDM</span>
+          </div>
+        </div>
+        <div class="col-md-3 col-6">
+          <div class="music-item">
+            <img src="images/music_gallery/img_2.png" alt="music_gallery" class="w-100" loading="lazy">
+            <span>ROCK</span>
+          </div>
+        </div>
+        <div class="col-md-3 col-6">
+          <div class="music-item">
+            <img src="images/music_gallery/img_3.png" alt="music_gallery" class="w-100" loading="lazy">
+            <span>RAP</span>
+          </div>
+        </div>
+        <div class="col-md-3 col-6">
+          <div class="music-item">
+            <img src="images/music_gallery/img_4.png" alt="music_gallery" class="w-100" loading="lazy">
+            <span>MIXED</span>
+          </div>
+        </div>
+      </div>
+      <div class="gall_btn_box">
+        <a class="music-gallery-btn" href="#">Täglich die beste Musik!</a>
+      </div>
+    </div>
+  </section>
+  <!-- ===//end of music-gallery section === -->
+ 
+  
+  <!-- === footer section start === -->
+  <footer class="footer">
+    <ul class="social_link text-center">
+      <li>
+        <a href="#"><img src="images/social_link/instagram.png" alt="instagram" class="img-fluid"></a>
+      </li>
+      <li>
+        <a href="#"><img src="images/social_link/whatsapp.png" alt="/whatsapp" class="img-fluid"></a>
+      </li>
+      <li>
+        <a href="#"><img src="images/social_link/facebook.png" alt="facebook" class="img-fluid"></a>
+      </li>
+    </ul>
+
+    <div class="copyright-text">©2020 | HNDRD.de | Nur die beste Musik!</div>
+  </footer>
+  <!-- ===//end of footer section === -->
+ 
+
+ 
+
+
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/YouTubePopUp.jquery.js"></script>
+  <script type="text/javascript">
+		jQuery(function(){
+			jQuery("a.bla-1").YouTubePopUp();
+			jQuery("a.bla-2").YouTubePopUp( { autoplay: 0 } ); // Disable autoplay
+		});
+	</script>
+</body>
+</html>
